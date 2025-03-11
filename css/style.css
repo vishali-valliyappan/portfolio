@@ -215,6 +215,11 @@ section h2 {
 /* Zoom effect on the image */
 .project-card .img-card {
   transition: transform 0.3s ease-in-out; /* Smooth transition for zoom */
+  padding: 10px 0;
+}
+
+.education {
+  padding: 6px 0;
 }
 
 .project-card:hover .img-card {
@@ -303,6 +308,12 @@ section h2 {
 @media (max-width: 560px) {
   .about-card {
     height: max-content;
+  }
+}
+
+@media (max-width: 560px) {
+  .main {
+    padding: 0px;
   }
 }
 
