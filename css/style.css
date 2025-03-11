@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+body {
+  font-family: "Livvic", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #fffafa; */
+}
+.sidebar {
+  position: fixed;
+  width: 308px;
+  height: 100%;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #dee2e6;
+  /* background-color: #fffafa; */
+}
+.sidebar-img {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  /* margin-bottom: 10px; */
+  position: relative;
+  bottom: 9px;
+}
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.sidebar p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.details {
+  padding-left: 11px;
+}
+
+.profile-name {
+  white-space: nowrap;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.project-role {
+  padding-left: 4px;
+}
+.nav-link.active {
+  color: #000 !important;
+}
+.nav-link {
+  color: #939191;
+}
+
+.home {
+  position: relative;
+  bottom: 3px;
+  padding-right: 6px;
+}
+.about {
+  position: relative;
+  bottom: 2px;
+  padding-right: 6px;
+}
+
+.about-us {
+  max-width: 563px;
+}
+.hover-box {
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-box:hover {
+  background-color: #e7e9eb;
+  box-shadow: inset 0px 0px 15px rgba(181, 181, 182, 0.344);
+  border-radius: 10px;
+  color: #000;
+}
+.main-content {
+  margin-left: 332px;
+  padding: 20px;
+}
+.introduction {
+  margin-top: 22px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 46px;
+}
+.badge-available {
+  background-color: #e9fcf4;
+  color: #19b388;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-family: 14px;
+}
+
+.img-card {
+  width: 420px;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+}
+.tech-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.stack-img {
+  padding-top: 16px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.ps-12 {
+  padding-left: 12px;
+}
+
+.about-heading {
+  width: 352px;
+}
+.fs-16 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fs-20 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.profile-picture {
+  width: 270px;
+  height: 271px;
+  object-fit: contain;
+  margin-top: 60px;
+
+}
+.profile-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h2 {
+  font-weight: bold;
+}
+
+.card {
+  /* background-color: #f8f9fa; */
+  border: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: gray;
+}
+
+.card-text {
+  font-size: 1rem;
+  max-width: 585px;
+}
+
+.card.skill-card {
+  transition: filter 0.3s ease-in-out;
+}
+
+.card.skill-card:hover {
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1))
+    drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+}
+
+.main {
+  padding: 0 40px 0 141px;
+}
+.skill-icon {
+  object-fit: cover; /* This will make the image fill the container and crop if needed */
+  height: 200px; /* Adjust the height if needed */
+  height: 250px;
+  object-fit: contain;
+  padding-top: 6px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+.contact-info ul li {
+  margin: 10px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden; /* Ensures the content stays inside the card */
+}
+
+/* Zoom effect on the image */
+.project-card .img-card {
+  transition: transform 0.3s ease-in-out; /* Smooth transition for zoom */
+}
+
+.project-card:hover .img-card {
+  transform: scale(1.04); /* Zoom effect when hovering */
+}
+
+/* Scrolling text effect for the h4 */
+.project-card h4 {
+  transition: transform 0.5s ease;
+}
+
+.project-card:hover h4 {
+  animation: scrollText 10s linear infinite; /* Scroll animation on hover */
+}
+
+.about-card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  max-width: 585px;
+}
+
+#navbarNav {
+  height: 64px;
+}
+
+.sidebar {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1050;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    text-align: center;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .nav-link {
+    font-size: 14px;
+    padding: 3px 3px;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer-contact {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 560px) {
+  .img-card {
+    width: 370px;
+    filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1))
+      drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.06));
+  }
+}
+
+@media (max-width: 560px) {
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-card {
+    height: max-content;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-expr {
+    max-width: 585px;
+  }
+}
+
+@media (max-width: 560px) {
+  .navbar-toggler {
+    position: absolute;
+    top: 45px;
+    right: 20px;
+    z-index: 1050;
+  }
+  .menu-icon {
+    height: 40px;
+    aspect-ratio: 1;
+    width: 40px;
+  }
+}

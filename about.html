@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishali - Frontend Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="sidebar ">
+      <!-- Profile Section -->
+      <div class="profile border-bottom py-4">
+        <!-- <img
+          src="img/img.png"
+          class="rounded sidebar-img"
+          alt="Profile Picture"
+        /> -->
+        <div class="details">
+          <h4 class="d-flex profile-name">Vishali Valliyappan</h4>
+          <p class=" d-flex text-muted project-role">Frontend Developer</p>
+        </div>
+      </div>
+
+      <!-- Navbar Toggle Button for Mobile -->
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <img src="img/icons/menu.png" alt="Menu" class="menu-icon" />
+      </button>
+
+      <!-- Navbar Section -->
+      <nav class="nav flex-column collapse d-md-block" id="navbarNav">
+        <a class="nav-link  hover-box mt-4" href="index.html">
+          <i class="bi bi-house-door home"></i>Home
+        </a>
+        <a class="nav-link active hover-box mt-4" href="#">
+          <i class="bi bi-person-fill about"></i>About
+        </a>
+        <a class="nav-link hover-box mt-4" href="projects.html">
+          <i class="bi bi-briefcase about"></i>Projects
+        </a>
+        <a class="nav-link hover-box mt-4" href="skills.html">
+          <i class="bi bi-layers about"></i>Skills
+        </a>
+        <!-- <a class="nav-link hover-box mt-4" href="#" id="contact-link">
+          <i class="bi bi-envelope about"></i>Contact
+        </a> -->
+      </nav>
+    </div>
+    <div class="main-content">
+      <div class="container">
+        <!-- Header Section -->
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <header class="my-5">
+              <div class="pt-5 pb-2 mb-3 border-bottom">
+                <span class="text-muted px-1 fs-16">About Me</span>
+                <h1 class="h2 mt-3">Shaping My Journey</h1>
+              </div>
+
+              <p class="lead about-us">
+                I'm a passionate Frontend Developer with expertise in React.js,
+                crafting high-performance, responsive, and user-friendly web
+                applications. With a strong foundation in JavaScript,
+                Next.js,and modern UI frameworks, I specialize in building
+                scalable solutions that enhance user experience.
+              </p>
+            </header>
+          </div>
+          <div class="col-md-6 col-sm-12 profile-card">
+            <img
+              src="img/icons/Education.png"
+              class="rounded profile-picture"
+              alt="Profile Picture"
+            />
+          </div>
+        </div>
+
+        <!-- Education Section -->
+        <section class="row my-5">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-card">
+              <h2>Education</h2>
+
+              <div class="row">
+                <div class="col-6">
+                  <strong>M.Sc.Computer Science</strong>
+                  <p>Alagappa University</p>
+                </div>
+                <div class="col-6">
+                  <span class="text-muted">2022-2024</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <strong>B.Sc.Computer Science</strong>
+                  <p>Vidhya Giri College of Arts and Science</p>
+                </div>
+                <div class="col-6">
+                  <span class="text-muted">2019-2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-card">
+              <h2>Certifications</h2>
+              <strong>Python Programming</strong>
+              <span class="text-muted">- BSS Training Academy</span>
+              <p>
+                I have studied Python programming, gaining expertise in writing
+                efficient and scalable code.
+              </p>
+              <strong>React.js</strong>
+              <span class="text-muted">- Udemy</span>
+              <p>
+                Specializing in building dynamic user interfaces. I create
+                efficient, component-based applications using ReactJS.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="my-5">
+          <div class="about-card">
+            <h2>Experience</h2>
+            <div class="card mb-3">
+              <div class="card-body ps-0">
+                <h3 class="card-title">React Developer</h3>
+                <span class="fs-20">AtomedgeSoft</span>
+                <h5 class="card-subtitle mb-2 text-muted mt-2">
+                  2024 - Present
+                </h5>
+                <p class="card-text">
+                  As a React Developer at AtomEdgeSoft, I have the opportunity
+                  to contribute to the development of cutting-edge web
+                  applications. My role involves leveraging my expertise in
+                  React to create dynamic, user-centric interfaces and deliver
+                  high-performance, scalable solution
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-4">
+            <p>
+              <i class="bi bi-envelope"></i>
+              <a
+                href="mailto:vishalivalliyappan9@gmail.com"
+                class="text-decoration-none text-dark"
+                >vishalivalliyappan9@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="footer-contact col-md-4">
+            <p><i class="bi bi-telephone"></i> +91 7339538312</p>
+            <p>
+              <i class="bi bi-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/vishali-v"
+                class="text-decoration-none text-dark"
+                target="_blank"
+                >vishali v</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // GSAP Animations
+      gsap.from("#about-heading", {
+        duration: 1,
+        y: -50,
+        opacity: 0,
+        ease: "power2.out",
+      });
+      gsap.from(".lead", {
+        duration: 1,
+        delay: 0.5,
+        y: -50,
+        opacity: 0,
+        ease: "power2.out",
+      });
+      gsap.from(".profile-picture", {
+        duration: 1,
+        delay: 1,
+        opacity: 0,
+        scale: 0.5,
+        ease: "power2.out",
+      });
+
+      gsap.from("section h2", {
+        duration: 1,
+        scrollTrigger: { trigger: "section", start: "top 75%" },
+        x: -50,
+        opacity: 0,
+        ease: "power2.out",
+      });
+      gsap.from(".card", {
+        duration: 1,
+        scrollTrigger: { trigger: ".card", start: "top 80%" },
+        y: 50,
+        opacity: 0,
+        stagger: 0.3,
+        ease: "power2.out",
+      });
+    </script>
+    <script>
+      // Select all nav links
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      // Loop through each link and add click event listener
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          // Remove 'active' class from all links
+          navLinks.forEach((nav) => nav.classList.remove("active"));
+          // Add 'active' class to the clicked link
+          this.classList.add("active");
+        });
+      });
+
+      document
+        .getElementById("contact-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Prevents default link behavior (page reload)
+          var contactInfo = document.getElementById("contact-info");
+
+          // Toggle visibility with GSAP effect
+          if (
+            contactInfo.style.display === "none" ||
+            contactInfo.style.display === ""
+          ) {
+            // Animate the contact info to fade in and slide down
+            gsap.fromTo(
+              contactInfo,
+              { opacity: 0, y: -20 }, // Initial state: hidden and slightly above
+              {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: "power3.out",
+                onStart: function () {
+                  contactInfo.style.display = "block"; // Set display to block when animation starts
+                },
+              }
+            );
+          } else {
+            // Animate the contact info to fade out and slide up
+            gsap.to(contactInfo, {
+              opacity: 0,
+              y: -20,
+              duration: 1,
+              ease: "power3.in",
+              onComplete: function () {
+                contactInfo.style.display = "none"; // Set display to none when animation completes
+              },
+            });
+          }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

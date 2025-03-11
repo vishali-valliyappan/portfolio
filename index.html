@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishali - Frontend Developer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar " id="sidebar ">
+      <!-- Profile Section -->
+      <div class="profile border-bottom py-4">
+        <!-- <img src="img/img.png" class="rounded sidebar-img" alt="Profile Picture"  /> -->
+        <div class="details">
+          <h4 class="d-flex profile-name">Vishali Valliyappan</h4>
+          <p class=" d-flex  project-role">Frontend Developer</p>
+        </div>
+      </div>
+
+      <!-- Navbar Toggle Button for Mobile -->
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <img src="img/icons/menu.png" alt="Menu" class="menu-icon" />
+      </button>
+
+      <!-- Navbar Section -->
+      <nav class="nav flex-column collapse d-md-block " id="navbarNav">
+        <a class="nav-link active hover-box mt-4" href="#">
+          <i class="bi bi-house-door-fill home"></i>Home
+        </a>
+        <a class="nav-link hover-box mt-4" href="about.html">
+          <i class="bi bi-person about"></i>About
+        </a>
+        <a class="nav-link hover-box mt-4" href="projects.html">
+          <i class="bi bi-briefcase about"></i>Projects
+        </a>
+        <a class="nav-link hover-box mt-4" href="skills.html">
+          <i class="bi bi-layers about"></i>Skills
+        </a>
+       
+      </nav>
+
+    
+    </div>
+
+    <div class="main-content">
+      <section class="introduction border-bottom pb-5 mt-5" id="home">
+        <span class="badge-available">Where Design Meets Functionality</span>
+        <h2 class="mt-4">
+          Hey there!<br />
+          I'm Vishali...
+        </h2>
+        <p class="about-us mt-4">
+          I'm a passionate Frontend Developer, specializing in building dynamic
+          user interfaces. I create efficient, component-based applications
+          using ReactJS.
+        </p>
+        <div class="button">
+          <a href="about.html" class="btn btn-outline-dark mt-4"
+            >More about Me <i class="bi bi-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+      <section class="recent-projects border-bottom pb-5 mt-5" id="projects">
+        <h2>Recent Projects</h2>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 project-card">
+            <img src="img/CED-1.png" class="img-card" alt="Project 1" />
+            <!-- <span class="badge text-muted mt-3 fs-19">React Developer</span> -->
+            <h4 class="mt-3 ps-12">AURA(Human Resource Management System)</h4>
+          </div>
+
+          <div class="col-md-6 col-sm-12 project-card">
+            <img src="img/Payroll-1.png" class="img-card" alt="Project 3" />
+            <!-- <span class="badge text-muted mt-3 fs-19">React Developer</span> -->
+            <h4 class="mt-3 ps-12">PayRoll Management</h4>
+          </div>
+        </div>
+        <div class="button">
+          <a href="projects.html" class="btn btn-outline-dark mt-3"
+            >Project Details <i class="bi bi-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+      <section class="stack mt-5" id="stack">
+        <h2>Key skills</h2>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="img/icons/atom.png" alt="React.js" class="tech-icon" />
+            <h4 class="stack-img">React.js</h4>
+            <!-- <p>Open-source front-end JavaScript library.</p> -->
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/icons/nextjs.png" alt="Next.js" class="tech-icon" />
+            <h4 class="stack-img">Next.js</h4>
+            <!-- <p>React framework .</p> -->
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="img/icons/java-script.png"
+              alt="Javascript"
+              class="tech-icon"
+            />
+            <h4 class="stack-img">Javascript</h4>
+            <!-- <p>Programming language.</p> -->
+          </div>
+        </div>
+        <div class="button">
+          <a href="skills.html" class="btn btn-outline-dark mt-3"
+            >All Skills <i class="bi bi-arrow-right"></i
+          ></a>
+        </div>
+      </section>
+    </div>
+    <footer class="footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+
+          </div>
+          <div class="col-md-4" >
+            <p >
+              <i class="bi bi-envelope"></i>
+              <a
+                href="mailto:vishalivalliyappan9@gmail.com"
+                class="text-decoration-none text-dark"
+                >vishalivalliyappan9@gmail.com</a
+              >
+            </p>
+            
+          </div>
+          <div class="footer-contact col-md-4" >
+            <p ><i class="bi bi-telephone"></i> +91 7339538312</p>
+            <p>
+              <i class="bi bi-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/vishali-v"
+                class="text-decoration-none text-dark"
+                target="_blank"
+                >vishali v</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+     
+     
+     
+    </footer>
+    <script>
+      gsap.from(
+        ".sidebar img, .sidebar h2, .sidebar p, .nav-link, .social-icons a",
+        { opacity: 0, duration: 1, y: -50, stagger: 0.2 }
+      );
+      gsap.from(".main-content section", {
+        opacity: 0,
+        duration: 1,
+        y: 50,
+        stagger: 0.2,
+      });
+
+      document
+        .getElementById("contact-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault(); // Prevents default link behavior (page reload)
+          var contactInfo = document.getElementById("contact-info");
+
+          // Toggle visibility with GSAP effect
+          if (
+            contactInfo.style.display === "none" ||
+            contactInfo.style.display === ""
+          ) {
+            // Animate the contact info to fade in and slide down
+            gsap.fromTo(
+              contactInfo,
+              { opacity: 0, y: -20 }, // Initial state: hidden and slightly above
+              {
+                opacity: 1,
+                y: 0,
+                duration: 1,
+                ease: "power3.out",
+                onStart: function () {
+                  contactInfo.style.display = "block"; // Set display to block when animation starts
+                },
+              }
+            );
+          } else {
+            // Animate the contact info to fade out and slide up
+            gsap.to(contactInfo, {
+              opacity: 0,
+              y: -20,
+              duration: 1,
+              ease: "power3.in",
+              onComplete: function () {
+                contactInfo.style.display = "none"; // Set display to none when animation completes
+              },
+            });
+          }
+        });
+    </script>
+    <script>
+      // Select all nav links
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      // Loop through each link and add click event listener
+      navLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          // Remove 'active' class from all links
+          navLinks.forEach((nav) => nav.classList.remove("active"));
+          // Add 'active' class to the clicked link
+          this.classList.add("active");
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
