@@ -14,7 +14,7 @@ const Header = () => {
       </div>
       <div className="flex justify-center">
         {" "}
-        <h3 className="flex items-end gap-2 text-3xl md:text-4xl mb-3 mt-20">
+        <h3 className="flex items-end gap-2 text-3xl md:text-4xl mb-3 md:mt-20">
           Hi! I'm Vishali
           <Image src={assets.hand_icon} alt="" className=" w-6" />
         </h3>
